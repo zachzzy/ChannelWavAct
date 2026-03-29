@@ -2,6 +2,8 @@
 
 ---
 
+## Ablation
+
 ### Table 1: Ablation Study on Selective Regularization
 
 | Regularization Strategy | Last Acc (%) | Avg Acc (%) | Forgetting (%) | Time (s) |
@@ -10,7 +12,6 @@
 | Magnitude + Geometry | 30.2 ± 0.6 | 43.7 ± 1.0 | 16.8 ± 0.6 | 1331.5 |
 | Geometry-only | 29.6 ± 0.3 | 43.3 ± 1.0 | 17.7 ± 0.4 | 1349.2 |
 
----
 
 ### Table 2: Ablation Study on Injection Mechanism
 
@@ -23,7 +24,6 @@
 | Task-start Injection | Standard (lr) | 35.1 | 58.8 |
 | Static Allocation (Fixed 10 wavelets) | Standard (lr) | 34.9 | 55.7 |
 
----
 
 ### Table 3: Ablation Study on Wavelet Selection
 
@@ -34,7 +34,6 @@
 | Mexican Hat (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
 | DOG | Decoupled (lr * 5) | 41.3 | 48.6 |
 
----
 
 ### Table 4: Fair Comparison under Strict Parameter Budget
 
@@ -43,8 +42,6 @@
 | ChannelWavAct (Ours) | 1,122,500 | 30.2 ± 0.4 | 43.5 ± 0.9 | 16.4 ± 0.4 |
 | Expanded Baseline (Layer3 & Layer4 channels +1) | 1,125,184 | 28.2 ± 0.3 | 40.5 ± 1.0 | 18.5 ± 0.5 |
 | Expanded Baseline (Layer3 channels +2) | 1,122,008 | 28.0 ± 0.5 | 40.5 ± 0.8 | 19.2 ± 0.5 |
-
----
 
 ### Table 5: Regularization Method Comparison (Proposed vs. EWC)
 
@@ -58,6 +55,8 @@
 | Proposed Reg + EWC | Decoupled (lr * 5) | 42.1 | 44.0 |
 
 ---
+
+## Frequency-Domain Analysis
 
 ### Figure 1: Fourier Amplitude Evolution during Multi-Frequency Regression
 
@@ -73,7 +72,30 @@
   <img src="spectral_heatmap.png" width="900" alt="Spectral Heatmap">
 </div>
 
-### Sensitivity Analysis of Hyper-parameters
+---
 
-  <img src="spectral_heatmap.png" width="900" alt="Spectral Heatmap">
+## Sensitivity Analysis of Hyper-parameters
+
+### Figure 3: Regularization Coefficient ($\lambda$)
+
+<div align="center">
+  <img src="reg lambda.png" width="900" alt="Sensitivity of Lambda">
+</div>
+
+### Figure 4: Patience Threshold ($P$)
+
+<div align="center">
+  <img src="patience threshold P.png" width="900" alt="Sensitivity of P">
+</div>
+
+### Figure 5: Relative Margin ($\delta$)
+
+<div align="center">
+  <img src="relative margin delta.png" width="900" alt="Sensitivity of Delta (margin)">
+</div>
+
+### Figure 5: Injection Number ($\Delta$)
+
+<div align="center">
+  <img src="inject number Delta.png" width="900" alt="Sensitivity of Injection Number">
 </div>
