@@ -32,8 +32,14 @@
 | Mexican Hat (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
 | DOG | Decoupled (lr * 5) | 41.3 | 48.6 |
 
+### Table 4: Ablation Study on Initialization of New Wavelet
 
-### Table 4: Fair Comparison under Strict Parameter Budget
+| Initialization | Last Acc (%) | Avg Acc (%) | Forgetting (%) |
+| :--- | :--- | :---: | :---: |
+| Zero-Init (Ours) | 30.2 ± 0.4 | 43.5 ± 0.9 | 16.4 ± 0.4 |
+| Random-Init | 8.7 ± 5.9 | 32.5 ± 5.9 | 21.9 ± 3.6 |
+
+### Table 5: Fair Comparison under Strict Parameter Budget
 
 | Method | Parameters | Last Acc (%) | Avg Acc (%) | Forgetting (%) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -41,7 +47,7 @@
 | Expanded Baseline (Layer3 & Layer4 channels +1) | 1,125,184 | 28.2 ± 0.3 | 40.5 ± 1.0 | 18.5 ± 0.5 |
 | Expanded Baseline (Layer3 channels +2) | 1,122,008 | 28.0 ± 0.5 | 40.5 ± 0.8 | 19.2 ± 0.5 |
 
-### Table 5: Regularization Method Comparison (Proposed vs. EWC)
+### Table 6: Regularization Method Comparison (Proposed vs. EWC)
 
 | Regularization Method | Learning Rate Setting | Avg Acc (%) | Forgetting (%) |
 | :--- | :--- | :---: | :---: |
