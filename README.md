@@ -44,6 +44,19 @@
 
 ---
 
+### Table 5: Regularization Method Comparison (Proposed vs. EWC)
+
+| Regularization Method | Learning Rate Setting | Avg Acc (%) | Forgetting (%) |
+| :--- | :--- | :---: | :---: |
+| Proposed Magnitude Reg (Ours) | Standard (lr) | 36.5 | 52.3 |
+| EWC | Standard (lr) | 35.7 | 55.2 |
+| Proposed Reg + EWC | Standard (lr) | 35.6 | 51.9 |
+| Proposed Magnitude Reg (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
+| EWC | Decoupled (lr * 5) | 40.8 | 45.2 |
+| Proposed Reg + EWC | Decoupled (lr * 5) | 42.1 | 44.0 |
+
+---
+
 ### Figure 1: Fourier Amplitude Evolution during Multi-Frequency Regression
 
 <div align="center">
