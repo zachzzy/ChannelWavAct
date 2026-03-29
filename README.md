@@ -1,7 +1,5 @@
 # Supplementary Material for Rebuttal
 
----
-
 ## Ablation
 
 ### Table 1: Ablation Study on Selective Regularization
