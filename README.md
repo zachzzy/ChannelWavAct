@@ -12,6 +12,17 @@
 
 ---
 
+### Table 2: Ablation Study on Injection Mechanism
+
+| Injection Strategy | Learning Rate Setting | Avg Acc (%) | Forgetting (%) |
+| :--- | :--- | :---: | :---: |
+| **Loss-based Trigger (Ours)** | **Decoupled (lr * 5)** | **41.2** | **45.3** |
+| Task-start Injection | Decoupled (lr * 5) | 40.7 | 45.1 |
+| **Loss-based Trigger (Ours)** | **Standard (lr)** | **36.5** | **52.3** |
+| Task-start Injection | Standard (lr) | 35.1 | 58.8 |
+
+---
+
 ### Figure 1: Fourier Amplitude Evolution during Multi-Frequency Regression
 
 <div align="center">
