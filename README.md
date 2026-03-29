@@ -18,10 +18,10 @@
 | :--- | :--- | :---: | :---: |
 | Loss-based Trigger (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
 | Task-start Injection | Decoupled (lr * 5) | 40.7 | 45.1 |
-| Static Allocation (Fixed 10 wavelets) | Decoupled (lr * 5) | 38.4 | 51.6 |
+| Static Allocation (Fixed 10 wavelets) | Decoupled (lr * 5) | 40.0 | 46.3 |
 | Loss-based Trigger (Ours) | Standard (lr) | 36.5 | 52.3 |
 | Task-start Injection | Standard (lr) | 35.1 | 58.8 |
-| Static Allocation (Fixed 10 wavelets) | Standard (lr) | 33.7 | 61.2 |
+| Static Allocation (Fixed 10 wavelets) | Standard (lr) | 34.9 | 55.7 |
 
 ---
 
