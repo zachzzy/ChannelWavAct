@@ -27,7 +27,7 @@
 
 | Method | Parameters | Last Acc (%) | Avg Acc (%) | Forgetting (%) |
 | :--- | :---: | :---: | :---: | :---: |
-| **ChannelWavAct (Ours)** | **1,122,500** | **30.2 ± 0.4** | **43.5 ± 0.9** | **16.4 ± 0.4** |
+| ChannelWavAct (Ours) | 1,122,500 | 30.2 ± 0.4 | 43.5 ± 0.9 | 16.4 ± 0.4 |
 | Expanded Baseline (Layer3 & Layer4 channels +1) | 1,125,184 | 28.2 ± 0.3 | 40.5 ± 1.0 | 18.5 ± 0.5 |
 | Expanded Baseline (Layer3 channels +2) | 1,122,008 | 28.0 ± 0.5 | 40.5 ± 0.8 | 19.2 ± 0.5 |
 
