@@ -72,3 +72,8 @@
 <div align="center">
   <img src="spectral_heatmap.png" width="900" alt="Spectral Heatmap">
 </div>
+
+### Sensitivity Analysis of Hyper-parameters
+
+  <img src="spectral_heatmap.png" width="900" alt="Spectral Heatmap">
+</div>
