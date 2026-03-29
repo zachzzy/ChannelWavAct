@@ -23,7 +23,18 @@
 
 ---
 
-### Table 3: Fair Comparison under Strict Parameter Budget
+### Table 3: Ablation Study on Wavelet Selection
+
+| Wavelet Function | Learning Rate Setting | Avg Acc (%) | Forgetting (%) |
+| :--- | :--- | :---: | :---: |
+| Mexican Hat (Ours) | Standard (lr) | 36.5 | 52.3 |
+| DOG | Standard (lr) | 34.9 | 56.1 |
+| Mexican Hat (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
+| DOG | Decoupled (lr * 5) | 41.3 | 48.6 |
+
+---
+
+### Table 4: Fair Comparison under Strict Parameter Budget
 
 | Method | Parameters | Last Acc (%) | Avg Acc (%) | Forgetting (%) |
 | :--- | :---: | :---: | :---: | :---: |
