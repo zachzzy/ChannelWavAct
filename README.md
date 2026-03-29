@@ -4,6 +4,19 @@ This anonymous repository contains the supplementary high-resolution figures ref
 
 ---
 
+### Table 1: Ablation Study on Selective Regularization
+**Description:** Empirical comparison justifying our design choice to regularize *only* the magnitude parameters while keeping the geometric parameters flexible.
+
+| Regularization Strategy | Last Acc (%) | Avg Acc (%) | Forgetting (%) | Time (s) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Magnitude-only (Ours)** | **30.2 ± 0.5** | **43.6 ± 0.9** | **16.7 ± 0.5** | **1322.1** |
+| Magnitude + Geometry | 30.2 ± 0.6 | 43.7 ± 1.0 | 16.8 ± 0.6 | 1331.5 |
+| Geometry-only | 29.6 ± 0.3 | 43.3 ± 1.0 | 17.7 ± 0.4 | 1349.2 |
+
+* **Conclusion:** Regularizing only the magnitude parameters provides the optimal balance between stability and plasticity. Constraining the geometric parameters severely limits the network's ability to learn new knowledge (highest forgetting), while regularizing both adds unnecessary computational complexity without meaningful performance gains.
+
+---
+
 ### Figure 1: Fourier Amplitude Evolution during Multi-Frequency Regression
 **Description:** We replicated "Experiment 1" from Rahaman et al. (2019) to track the discrete Fourier amplitude of the network's prediction at specific frequencies (5Hz to 30Hz) over 10,000 iterations.
 
