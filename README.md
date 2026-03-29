@@ -62,8 +62,6 @@
   <img src="spectral_dynamics.png" width="900" alt="Learning Dynamics">
 </div>
 
----
-
 ### Figure 2: Heatmap of Frequency-Domain Learning Dynamics
 
 <div align="center">
@@ -92,7 +90,7 @@
   <img src="relative margin delta.png" width="900" alt="Sensitivity of Delta (margin)">
 </div>
 
-### Figure 5: Injection Number ($\Delta$)
+### Figure 6: Injection Number ($\Delta$)
 
 <div align="center">
   <img src="inject number Delta.png" width="900" alt="Sensitivity of Injection Number">
