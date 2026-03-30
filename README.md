@@ -1,7 +1,5 @@
 # Supplementary Material for Rebuttal
 
-## Ablation
-
 ### Table 1: Ablation Study on Selective Regularization
 
 | Regularization Strategy | Last Acc (%) | Avg Acc (%) | Forgetting (%) | Time (s) |
@@ -60,8 +58,6 @@
 
 ---
 
-## Frequency-Domain Analysis
-
 ### Figure 1: Fourier Amplitude Evolution during Multi-Frequency Regression
 
 <div align="center">
@@ -75,8 +71,6 @@
 </div>
 
 ---
-
-## Sensitivity Analysis of Hyper-parameters
 
 ### Figure 3: Regularization Coefficient ($\lambda$)
 
