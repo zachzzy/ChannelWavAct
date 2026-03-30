@@ -15,10 +15,8 @@
 | :--- | :--- | :---: | :---: |
 | Loss-based Trigger (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
 | Task-start Injection | Decoupled (lr * 5) | 40.7 | 45.1 |
-| Static Allocation (Fixed 10 wavelets) | Decoupled (lr * 5) | 40.0 | 46.3 |
 | Loss-based Trigger (Ours) | Standard (lr) | 36.5 | 52.3 |
 | Task-start Injection | Standard (lr) | 35.1 | 58.8 |
-| Static Allocation (Fixed 10 wavelets) | Standard (lr) | 34.9 | 55.7 |
 
 
 ### Table 3: Ablation Study on Wavelet Selection
@@ -55,6 +53,13 @@
 | Proposed Magnitude Reg (Ours) | Decoupled (lr * 5) | 41.2 | 45.3 |
 | EWC | Decoupled (lr * 5) | 40.8 | 45.2 |
 | Proposed Reg + EWC | Decoupled (lr * 5) | 42.1 | 44.0 |
+
+### Table 7: Ablation Study on Dynamic Injection
+
+| Regularization Strategy | Last Acc (%) | Avg Acc (%) | Forgetting (%) | Time (s) |
+| :--- | :---: | :---: | :---: | :---: |
+| Loss-based Trigger (Ours) | 30.2 ± 0.5 | 43.6 ± 0.9 | 16.7 ± 0.5 | 1322.1 |
+| Static Allocation (Fixed 10 wavelets) | 28.9 ± 0.5 | 42.3 ± 1.2 | 16.5 ± 0.6 | 1947.2 |
 
 ---
 
