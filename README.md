@@ -54,7 +54,7 @@
 | EWC | Decoupled (lr * 5) | 40.8 | 45.2 |
 | Proposed Reg + EWC | Decoupled (lr * 5) | 42.1 | 44.0 |
 
-### Table 7: Ablation Study on Dynamic Injection
+### Table 7: Comparison between Dynamic Injection and Static Activation Capacity
 
 | Regularization Strategy | Last Acc (%) | Avg Acc (%) | Forgetting (%) | Time (s) |
 | :--- | :---: | :---: | :---: | :---: |
