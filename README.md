@@ -72,25 +72,25 @@
 
 ---
 
-### Figure 3: Regularization Coefficient ($\lambda$)
+### Figure 3: Hyperparameter Analysis of Regularization Coefficient ($\lambda$)
 
 <div align="center">
   <img src="reg lambda.png" width="900" alt="Sensitivity of Lambda">
 </div>
 
-### Figure 4: Patience Threshold ($P$)
+### Figure 4: Hyperparameter Analysis of Patience Threshold ($P$)
 
 <div align="center">
   <img src="patience threshold P.png" width="900" alt="Sensitivity of P">
 </div>
 
-### Figure 5: Relative Margin ($\delta$)
+### Figure 5: Hyperparameter Analysis of Relative Margin ($\delta$)
 
 <div align="center">
   <img src="relative margin delta.png" width="900" alt="Sensitivity of Delta (margin)">
 </div>
 
-### Figure 6: Injection Number ($\Delta$)
+### Figure 6: Hyperparameter Analysis of Injection Number ($\Delta$)
 
 <div align="center">
   <img src="inject number Delta.png" width="900" alt="Sensitivity of Injection Number">
